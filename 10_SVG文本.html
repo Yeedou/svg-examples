@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG 文本</title>
+</head>
+<body>
+    <h2>例子1</h2>
+    <svg width="500" height="200">
+        <text x="0" y="15" fill="red">I Love SVG!</text>
+    </svg>
+    <h2>例子2</h2>
+    <svg width="500" height="200">
+        <text x="0" y="15" fill="red" transform="rotate(30 20,40)">I Love SVG!</text>
+    </svg>
+    <h2>例子3</h2>
+    <svg width="500" height="200">
+        <text x="10" y="20" style="fill: red;">Several lines:
+            <tspan x="10" y="45">First line.</tspan>
+            <tspan x="10" y="70">second line.</tspan>
+        </text>
+    </svg>
+    <h2>例子4</h2>
+    <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <a xlink:href="www.w3school.com.cn/graphics/index.asp" target="_blank">
+          <text x="0" y="15" fill="red">I love SVG!</text>
+        </a>
+      </svg>
+
+</body>
+</html>
